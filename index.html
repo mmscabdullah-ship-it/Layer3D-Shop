@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layer3D - Premium 3D Onion Assets & Prints</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">🧅 Layer3D</div>
+        <nav>
+            <a href="#models">3D Models</a>
+            <a href="#prints">Physical Prints</a>
+            <a href="#about">About</a>
+            <a href="cart.html" class="btn" style="padding: 0.4rem 1rem;">Cart (<span id="cart-count">0</span>)</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Next-Gen <span>3D Onion</span> Assets & Prints</h1>
+            <p>Game-ready digital models, procedural shaders, and custom 3D-printed onion collectibles for developers and creators.</p>
+            <a href="#products" class="btn">Explore Shop</a>
+        </div>
+        <div class="canvas-container" id="3d-viewer">
+            <div id="canvas-label">Interactive 3D Preview (Drag to Rotate)</div>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <h2>Featured Products</h2>
+        <div class="grid" id="products-grid">
+            <!-- Products will be loaded here by JavaScript -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Layer3D. All rights reserved. | <a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms of Service</a></p>
+    </footer>
+
+    <script src="products.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
